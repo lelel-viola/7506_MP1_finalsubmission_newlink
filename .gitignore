@@ -1,0 +1,18 @@
+# Local and editor files
+.DS_Store
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# Keep only the final reproducible checkpoint under code/runs/
+code/runs/*
+!code/runs/student-medium-1200/
+!code/runs/student-medium-1200/checkpoint.pt
+!code/runs/student-medium-1200/metrics.json
+!code/runs/student-medium-1200/test_cpu_fp32.json
+!code/runs/student-medium-1200/test_cpu_fp32.window-nll.npy
