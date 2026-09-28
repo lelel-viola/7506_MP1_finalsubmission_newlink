@@ -1,0 +1,5816 @@
+{
+  "selection_split": "validation",
+  "parent": "runs\\rope-24000\\best.pt",
+  "parent_sha256": "ebf778f38195c182ab16b16304d43d4d43ef76e7503cdf1f3986784dafad1182",
+  "seconds": 26.50108580000233,
+  "best": {
+    "temperature": 1.2,
+    "alpha": 0.05,
+    "theta": 15.0,
+    "token_bonus": 0.0,
+    "suffix_bonus": 2.0,
+    "bpb": 1.474418955321551
+  },
+  "grid": [
+    {
+      "temperature": 1.0,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5350178417940585
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.520955445214685
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.511579828157362
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5062408835000558
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5043930519742537
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.511242957328487
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5053161301596727
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5047846772576359
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5046412429312763
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5028378552604063
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5028925329906284
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5031300092634905
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5026860523269883
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.502796752911688
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5018910865780295
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5012084780647748
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5013361035287216
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5014770146397949
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5013533063599545
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5014808114796934
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5020690431276673
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5019843456785407
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5020931330699916
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5015826259957008
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5014704172621742
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5015823106779211
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5019364773112611
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5018987588348751
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5019931089348262
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5024500496026658
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5024047347641554
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5024895058301213
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5026095422742665
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5025469444348822
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.502630384705476
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5029261826983535
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5028914501311266
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5029644325338551
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.50329258419641
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5032565237290765
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5033254806431395
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5086088352754765
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.501204224294596
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5006748112763073
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4999148471804846
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4978714375549766
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.498059857471191
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4984458683274564
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.498046672238127
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4982636333583972
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4958129333737729
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4951884010294838
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.495467143162287
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4957645829699704
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4957638385357048
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.496004419261004
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4969983322579516
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4969762684929793
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4971743527706338
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4959020888210637
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4958950009516796
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4961100473992626
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4967296679195485
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4967711036314955
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4969443194611423
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4976817348515936
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4976843324447684
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4978358304055486
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4977706676916354
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4977758967914612
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4979347370410776
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4984175151204524
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.498437113337553
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4985701948353687
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.499087721762107
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4990895866308607
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4992113620950882
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5113013821389103
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5030012383953149
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5025069459380167
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5012414136771073
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4991090844624018
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4994106093788357
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4999075415128613
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4995848423413427
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.499886144126718
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4961417914898547
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4956227800196795
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4960258752370954
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4964469661186208
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4965703806584656
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4969001621094817
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.498205556443331
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4982498837714133
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4985167795581757
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4965861818394333
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4966878545917928
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4969849911009252
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4978139979817013
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4979318313736603
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4981669862335807
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4991144908018457
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4991657905090199
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4993690616984972
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4991091671834458
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4991835593507397
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4994021910889501
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5000266209403197
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5000999536361888
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5002808585695189
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5009346667065337
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.500975890061761
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.501139289823976
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.518653732776677
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5094700438459425
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5090354680095193
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5071787861623502
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5050001698683255
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5054369112486015
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5060572217828434
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5058473068093243
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5062465432334164
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5009635883294905
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5006018428353347
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5011521211592693
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5017138534057486
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5019977855148123
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5024303690545873
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.504091961919308
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5042235574825817
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5045683781357984
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5018319514745184
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.502076199991821
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5024688197733778
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.503541540686658
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5037564710157403
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5040627801131725
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5052486893109984
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.505362603943484
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5056248464914128
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5051021696110758
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5052665278846007
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5055543721650664
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.506341513703458
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5064832746064474
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.5067195078489244
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.507524610425667
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.5076166102820623
+    },
+    {
+      "temperature": 1.0,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.507827941898497
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5001763748985475
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4942699038269736
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4936964197215807
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4935992200407868
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.491736874428899
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4917611451278767
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4919325252790714
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.491444965954939
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4915384779771184
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4908359236752877
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4900968283403304
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.490199408504619
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4902905506288135
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4901312483630664
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4902436676607025
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.490759300119625
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.490656990365365
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.49075584129956
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4902926615209209
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4901532008040848
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4902513895985066
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4905610242920386
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4905065744022132
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4905916095708447
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4909993776169834
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4909440525732875
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4910216429835923
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.491111719242278
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4910343786208349
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4911087807944936
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4913736629347076
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4913290429145827
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4913955278796294
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4916882323695677
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4916454783057123
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4917089264020493
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4981893908062698
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4907271102747117
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.490128784099817
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4894190320783882
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4872685552952476
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4874116318099222
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4877022366292747
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4872320554208507
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4874251767037907
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4852508314792887
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4845349795491163
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4847778558117366
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.485003337678633
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4849465586549835
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.485166503360711
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4860581674713444
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4860084155850577
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.486194029287078
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4849879791131348
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.484938657653183
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4851348676179315
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4856896970738755
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4857063068581782
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4858670393638178
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4865382898193735
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4865264449644011
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4866688730241324
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4865661009465096
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4865492721667823
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4866960706100674
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4871368759333718
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4871416624669662
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4872661193285415
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4877383031382334
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.487730449441687
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.487845450045333
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5011965194768753
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.492794666643192
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4922164498119994
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4909982089166192
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4887331858635338
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.48898072354182
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4893682886281878
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4889585251831894
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4892321111933144
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4857934919765934
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4851646764829842
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4855256685962825
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4858651617394725
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4859203925617923
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4862265743212486
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4874131035749028
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4874236701692598
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4876770487712638
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.485820950231533
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4858716691169453
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4861472737116657
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4868996925127318
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4869882993762038
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.487209500865986
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4880803043870334
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4881150153858045
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4883084950047605
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4880054152714939
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4880540140803007
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4882592182016132
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.488834975049966
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4888911170368442
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4890624259974947
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4896650884982727
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.489695274858366
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.489851416335123
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5087903141240249
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.499467024880666
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.498935517568149
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4971201603476783
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4947879824990247
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4951629406110025
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4956653615666307
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4953538139300164
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.495721611125599
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4907587367763595
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4902721016588953
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4907746452413755
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.491250015904657
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4914546494109144
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4918610050251615
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4933901710074118
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4934822266943275
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4938127835359607
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.491155918298109
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4913413082312785
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4917101043172516
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4926964592546872
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4928782735253316
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4931695420696074
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4942689347776033
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.494364585709726
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.494616672121389
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4940453148458932
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.494180838342203
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4944542442908255
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4951865558478903
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4953093732751919
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4955353566053635
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4962839872224245
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4963641116739277
+    },
+    {
+      "temperature": 1.05,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.496567951054079
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4932657350771985
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4873747650684896
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4867672045457538
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4867039598732164
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4847918400560671
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4847923400201626
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.484905262541946
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4843830674230136
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4844633122499569
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4839224876758046
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4831375176995814
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4832204805032265
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4832683818187034
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4830813222468624
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4831820934711553
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4836383635161037
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4835223570822778
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.483613431792163
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.483182774635539
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4830217638223837
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4831092782394246
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4833826839496531
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4833150450486914
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4833928460267887
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.483760294245587
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4836969068517496
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4837688320788949
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4838300237240405
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4837410199389267
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4838083146580425
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4840478908811034
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4839954893104603
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4840568381930406
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4843206874896553
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4842725008035869
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.484331488650846
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4918070554155567
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4842849261342224
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4836286508079215
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4829517301430863
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.480707569308705
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.480814676792571
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.481018170668914
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4804898942054863
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4806646782976558
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.478710185948168
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4779178659493826
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4781325683190725
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.478293336133126
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4781921788794348
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4783962894753686
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4792032641130206
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.47913208446335
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4793081572882627
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4781443196800759
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.478061415380306
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.478243064128979
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.47874512008407
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.478742136655592
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.478893252470591
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4795103572257557
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.479487034205001
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4796224686787607
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.479480357575949
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4794460141754397
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4795834427744816
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.479990122971487
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4799833075880076
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4801011286589472
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4805359807762042
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.480520422688846
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4806301355451514
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4950591672029652
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.486555039382992
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4859058024267406
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4847142818349721
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4823324444551238
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4825369825104076
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4828234286088458
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4823419140601777
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4825944003731333
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4793956059155935
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4786743385385248
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4790024276681133
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4792676253719332
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.47926874214067
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4795569703258595
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4806446354542708
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.480629275581526
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4808725861703873
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4790603170961854
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4790708274035054
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4793299307625414
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4800201215703572
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.480085906649704
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4802964761972421
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4811048518811998
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4811266498373494
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4813127247530722
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.480962214265655
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4809905668685488
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4811854621914033
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.481722062947132
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4817649007422629
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4819289629781245
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4824896430282966
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4825112997630192
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4826619467621396
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5028281938154027
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4933664551243189
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4927529096052543
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.490955340813942
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4884878952646086
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.488813601787063
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4892062380810258
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4888106968872896
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4891548544701858
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4844369141614844
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4838451733205003
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.484310677157293
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4847069352380802
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4848486567782841
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4852352993740405
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4866542260074977
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4867161973851486
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4870364790589388
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4844215428693082
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4845609882192525
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4849117476356248
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4858282853693523
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4859846423072038
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4862646422908425
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4872941624709022
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4873759750215108
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4876205742912743
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4869932521053122
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4871065444600473
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4873690815190075
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.488057924683609
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4881663347940877
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4883847540746928
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4890873820114525
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4891586273088877
+    },
+    {
+      "temperature": 1.1,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4893570102753089
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.489958795998991
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4840770264658734
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4834412809725996
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.483402002271153
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4814466956899026
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4814283328102453
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4814889852836008
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4809388487074504
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.481008746679184
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.480596758515036
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.479773836348805
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4798413157811863
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4798513319365434
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4796422334462145
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4797339323927101
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4801413789136164
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.480014404071028
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4800993800889712
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.479689910896698
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4795115730604784
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4795906756875081
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.479834243007869
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4797560567793178
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4798281912572884
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4801625405195926
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.48009254733055
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4801599677568924
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4801935424025099
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4800951785673284
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4801568404723011
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4803756119165377
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4803169673038237
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.480374210565767
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4806148113314557
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4805621277818988
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.480617481643228
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4889236072753766
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4813376990074436
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4806319867370055
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4799732634894562
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4776457366182603
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.477724095714307
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4778474916978233
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4772711854036438
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4774318336510277
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4756506372129152
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4747936426800101
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4749861113495901
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4750885101789066
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4749518787549833
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4751438743249354
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4758804877287321
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4757924568575582
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.475961284260688
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4748207303885095
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4747108323953482
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4748812265762594
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4753399708144594
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4753214110762043
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4754651649083856
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.476037789242882
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.476005266031459
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4761353587779698
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4759528922235134
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4759045687868202
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4760347370389375
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4764135612388298
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4763976148882647
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4765103524952117
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4769146085214189
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4768929006581917
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4769985135046007
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4923582433054752
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4837494620208769
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4830393956361756
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4818570342133903
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4793709972657052
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4795411948420203
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4797337675777376
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4791927104518392
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.479429170006618
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4764148976978302
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4756152931873143
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.475917650593788
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4761152135660636
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4760732207067646
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4763479283920506
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.477353389878976
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4773179728342825
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4775539124550552
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.475760900890022
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4757394849138172
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4759860485589904
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.476625558918224
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4766734968765403
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4768760815824875
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4776335348948506
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4776452753746705
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4778258801190762
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4774249612656678
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.477437443696811
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4776245225319398
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4781295918020592
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4781621942201766
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4783208764703826
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4788472221926061
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.478862321146597
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.479008893711022
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5002424186448002
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4906415578631742
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4899579060799553
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4881578720322142
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.485570045549368
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4858565494070333
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4861468645179554
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4856816283692158
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4860081567285741
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4814711222601276
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4807906474508183
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4812275524834424
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4815515984330798
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4816434948533748
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4820155721689205
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4833431435329991
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.483382246525508
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4836953723721742
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.481091770041593
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.481195355112934
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4815326925493604
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.482393051919634
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4825299495507902
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4828017071413533
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4837748682803775
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.48384630898056
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4840856131020694
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4833969769221294
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4834933033638664
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4837478429383595
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.484402382429483
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4845000369920929
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4847130555058305
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.485378395143123
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4854431533199066
+    },
+    {
+      "temperature": 1.15,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4856377290577663
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4897869072271306
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4839070433075694
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.483247380741194
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4832238345464355
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4812299137079044
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4811963538896187
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.481209724362829
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4806365837672155
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4806983190096523
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4803888890235033
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.479533842851235
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.479589007748219
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4795654452927662
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4793384799384175
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4794230669870734
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4797901446909945
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4796541395565934
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4797343382942802
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4793371557560202
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4791446292440862
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4792170417851693
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4794357739800665
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4793490256195498
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4794166900211967
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.479723944636421
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.479648449547642
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4797122701185432
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4797194942497185
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.479613497758459
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4796706697203663
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4798723263069409
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4798085775402532
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4798625170031214
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4800846187599386
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4800281479338981
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.02,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4800805350664303
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4890823955554309
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4814274476111133
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4806788859195863
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4800258693204422
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4776228781584477
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4776780603208142
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.477727213692132
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4771107282706164
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4772604925413901
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.475613893280148
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4747015455341055
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4748764518540762
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4749259365893403
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4747606542723628
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4749434386345435
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.475621418599168
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4755199223252762
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4756833499792827
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4745507404849088
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.474418955321551
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4745806765644611
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.475003645726707
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.474972644376018
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.475110826419582
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4756469075132628
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4756069742657214
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4757330514293405
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.47550951742935
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4754500019427779
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.475574595773376
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4759306807369321
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4759075273664777
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.476016413253521
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4763958283797474
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4763691989063372
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.05,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4764716795969863
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4926433181480223
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.483926087109168
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4831632598213667
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4819748816142562
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4793946655490111
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4795373445895756
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4796423254708986
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.479051473625166
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4792758684140956
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4763992501270928
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4755327980105146
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.475815103960638
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4759510236542317
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.475874550056316
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4761392482215248
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.477076390774477
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4770253592519753
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4772560947717628
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4754621641208774
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.475415328159597
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4756524943487372
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4762506922566578
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4762847152465028
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4764814506259307
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.477197434411754
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.477201388826872
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.477378102156734
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4769244564566795
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4769245771617627
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4771058591339603
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4775856385818866
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4776104512994566
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4777652568364423
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.47826377990714
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4782739049048157
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.08,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4784175686376726
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.5005879894053955
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4908458862739524
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.490101739479353
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4882816299001262
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4855855752872213
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.485840938257735
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.48603571035293
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.485512406754182
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 5.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4858260202508518
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.481414779739986
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4806591798352886
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4810742253379068
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4813325430011095
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4813850815846041
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4817467116433942
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4829989829222368
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4830207792708197
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 10.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4833292466348056
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4807115875834704
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4807873207144857
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4811149435431503
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4819304194960095
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4820526415445863
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.482318619899883
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4832465805639337
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4833104288724628
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 15.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4835462504967687
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.482792088946213
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4828757165382735
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 0.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.483124604910921
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.483752385037299
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.48384224906589
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 2.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4840516301286393
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 0.0,
+      "bpb": 1.4846870843430342
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 2.0,
+      "bpb": 1.4847473007307457
+    },
+    {
+      "temperature": 1.2,
+      "alpha": 0.12,
+      "theta": 20.0,
+      "token_bonus": 4.0,
+      "suffix_bonus": 4.0,
+      "bpb": 1.4849394301697965
+    }
+  ]
+}

@@ -2,10 +2,8 @@
 __pycache__/
 *.pyc
 runs/*
-!runs/student-medium-1200/
-!runs/student-medium-1200/checkpoint.pt
-!runs/student-medium-1200/metrics.json
-!runs/student-medium-1200/test_cpu_fp32.json
-!runs/student-medium-1200/test_cpu_fp32.window-nll.npy
+!runs/rope-calibrated/
+!runs/rope-calibrated/*.json
+!runs/rope-calibrated/*.npy
 *.pt
-!runs/student-medium-1200/checkpoint.pt
+!runs/rope-calibrated/best.pt

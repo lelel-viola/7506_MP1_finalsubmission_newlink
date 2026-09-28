@@ -1,0 +1,23 @@
+{
+  "checkpoint_sha256": "d6825c653df361d4dc171047de6e04e76d55175165f244543672632235532d1c",
+  "precision": "fp32",
+  "device": "cpu",
+  "passed": true,
+  "normalization_max_abs_error": 1.996755599975586e-06,
+  "checks": [
+    "finite",
+    "normalized",
+    "prefix equivalence",
+    "future perturbation",
+    "example independence",
+    "window reset"
+  ],
+  "prefix_max_abs_error": {
+    "1": 5.7220458984375e-06,
+    "2": 5.7220458984375e-06,
+    "7": 9.5367431640625e-06,
+    "31": 9.5367431640625e-06,
+    "128": 9.5367431640625e-06,
+    "255": 5.7220458984375e-06
+  }
+}
