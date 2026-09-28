@@ -2,7 +2,7 @@
 import unittest
 import torch
 from common import windows
-from student import build_model
+from model import build_model
 
 
 class ContractTests(unittest.TestCase):

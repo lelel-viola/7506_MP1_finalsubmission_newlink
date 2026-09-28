@@ -58,10 +58,10 @@ python evaluate.py --checkpoint runs/baseline/checkpoint.pt --device cpu --preci
 
 The baseline has four GPT blocks, width 128, four attention heads and **1,088,256 parameters**, and achieves approximately **2.10 test BPB**. On the reference four-thread Xeon Platinum 8457C, measured training took about **311 seconds** and scoring **5.92 seconds**, excluding installation and loading. These are reference measurements, not laptop guarantees or a fixed time allowance.
 
-**Your model** — edit `student.py` and supporting files, then:
+**Your model** — use `student_rope.py` and its supporting files, then:
 
 ```bash
-python train.py --implementation student --config configs/student-medium.json --seed 17 --eval-every 300 --run-dir runs/my-model
+python train.py --implementation student_rope --config configs/student-rope.json --seed 17 --steps 24000 --eval-every 1200 --average-start 12000 --run-dir runs/my-model
 python evaluate.py --checkpoint runs/my-model/checkpoint.pt --split validation
 # Freeze the final method before testing:
 python evaluate.py --checkpoint runs/my-model/checkpoint.pt --split test
@@ -74,7 +74,7 @@ Training writes `checkpoint.pt` and `metrics.json`. Evaluation writes `test_cpu_
 | Files | Use |
 |---|---|
 | `model.py`, `configs/baseline.json` | Runnable baseline; preserve for comparisons. |
-| `student.py`, `train.py` | Your model factory and training recipe; add supporting code as needed. |
+| `student_rope.py`, `student_cache.py`, `train.py` | Final model, causal cache and training recipe. |
 | `common.py`, `evaluate.py` | Fixed data checks, windows and scorer; keep unchanged. |
 | `data/` | Supplied splits, tokenizer and dataset hashes; keep unchanged. |
 | `tests/test_contract.py` | Checks your model's causality, normalization, independence and gradients. |
@@ -133,3 +133,41 @@ AI assistance was used to inspect the starter code, explain the evaluation
 protocol, implement and review the SwiGLU student model, and draft the report.
 The model is trained from scratch on the supplied data; no pretrained weights,
 external training text, retrieval database or test answers were used.
+
+## 8. Final optimization experiment
+
+Final predictor: `runs/rope-calibrated/best.pt`, six-layer width-288 rotary
+RMSNorm GPT plus strictly causal within-window contextual repetition. The
+checkpoint contains all weights and chosen settings; no separate database is
+needed. See REPORT.md and EXPERIMENT_RECORD.md for comparisons, ablation, costs
+and limitations.
+
+Direct reproduction without retraining:
+
+```powershell
+& C:/anaconda/envs/mp1/python.exe measure_evaluation.py --checkpoint runs/rope-calibrated/best.pt --device cpu --precision fp32 --threads 4 --split test --output runs/rope-calibrated/reproduced_test.json
+```
+
+In the portable submission archive use `python` from your installed Python
+3.12 environment and replace the checkpoint path by `submission/best.pt`.
+The archive contains source, data, tokenizer, configs, tests, final evidence and weights.
+Install the CPU PyTorch build and requirements as described above. To retrain
+the final recipe see REPORT.md; do not use the older default 1,200-step command.
+AI assistance also implemented the contextual cache and its validation sweep,
+checked causal behavior and numerical equivalence, and prepared the bundle.
+
+See [EXPERIMENT_RECORD.md](EXPERIMENT_RECORD.md) for constraints, staged
+experiments and final measurements.
+`train.py --lr` sets the peak learning rate; `best.pt` is selected by validation
+BPB while `checkpoint.pt` remains the last training checkpoint. Always report
+the full search budget from metrics.json, not just best.pt's selected step.
+The new code and experiment planning also used substantive AI assistance.
+
+On this machine use `C:/anaconda/envs/mp1/python.exe`; the unqualified `python`
+command resolves to the Windows Store alias. Run modules directly with
+`--implementation MODULE_NAME`; do not swap source files between checkpoints.
+
+`measure_evaluation.py` accepts the evaluator's arguments plus a required
+`--output` and writes a separate process peak-memory report. It calls the
+unchanged evaluator. Compare baseline and student timings on the same machine,
+split, thread count and precision, with no other training running.

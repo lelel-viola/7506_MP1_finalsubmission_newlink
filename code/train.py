@@ -1,5 +1,6 @@
 """Default recipe: 1,200 steps x 32 sequences x 256 targets = 9,830,400 tokens."""
 import argparse
+import copy
 import json
 import math
 from pathlib import Path
@@ -21,9 +22,12 @@ def main():
     p.add_argument('--threads', type=int, default=4)
     p.add_argument('--seed', type=int, default=17)
     p.add_argument('--steps', type=int, default=1200)
+    p.add_argument('--lr', type=float, default=.001)
     p.add_argument('--batch-size', type=int, default=32)
     p.add_argument('--eval-every', type=int, default=0,
                    help='Optional validation-curve interval; 0 evaluates only after training.')
+    p.add_argument('--average-start', type=int, default=0,
+                   help='If positive, average validation snapshots starting at this update.')
     args = p.parse_args()
     if args.steps < 1 or args.batch_size < 1:
         p.error('Batch size and step count must be positive.')
@@ -35,6 +39,8 @@ def main():
     data = load_data()
     config = json.loads(args.config.read_text())
     model, implementation_sha = make_model(args.implementation, config, device)
+    average = copy.deepcopy(model) if args.average_start > 0 else None
+    average_count = 0
     args.run_dir.mkdir(parents=True, exist_ok=True)
     optimizer = torch.optim.AdamW(model.parameters(), lr=.001, weight_decay=.1)
     tokens = data['train'][0].to(device)
@@ -46,10 +52,21 @@ def main():
     history = []
     validation_history = []
     intermediate_validation_seconds = 0.
+    best_bpb = float('inf')
+    best_step = None
+    def save_best(validation, step, candidate=None, kind='raw'):
+        nonlocal best_bpb, best_step
+        candidate = model if candidate is None else candidate
+        if validation['bpb'] < best_bpb:
+            best_bpb, best_step = validation['bpb'], step
+            torch.save({'protocol': PROTOCOL, 'implementation': args.implementation,
+                        'config': config, 'model': {k: v.detach().cpu().clone() for k, v in candidate.state_dict().items()},
+                        'seed': args.seed, 'train_tokens': step*args.batch_size*256,
+                        'selected_step': step, 'validation_bpb': best_bpb, 'averaging': kind}, args.run_dir/'best.pt')
     for step in range(args.steps):
         starts = torch.randint(len(tokens)-257, (args.batch_size,), generator=rng).to(device)
         batch = tokens[starts[:,None]+torch.arange(257,device=device)]
-        learning_rate = .001 * min(1.,(step+1)/100) * (.1+.9*.5*(1+math.cos(math.pi*step/args.steps)))
+        learning_rate = args.lr * min(1.,(step+1)/100) * (.1+.9*.5*(1+math.cos(math.pi*step/args.steps)))
         for group in optimizer.param_groups:
             group['lr'] = learning_rate
         optimizer.zero_grad(set_to_none=True)
@@ -65,20 +82,35 @@ def main():
         if args.eval_every > 0 and (step+1)%args.eval_every == 0:
             intermediate = score(model,*data['validation'],device,'fp32')
             intermediate.pop('window_nll_nats')
+            save_best(intermediate, step+1)
             intermediate_validation_seconds += intermediate['seconds']
             validation_history.append({'step':step+1,**intermediate})
             print(json.dumps({'validation':validation_history[-1]}),flush=True)
+            if average is not None and step+1 >= args.average_start:
+                average_count += 1
+                with torch.no_grad():
+                    for a, b in zip(average.parameters(), model.parameters()):
+                        a.lerp_(b, 1/average_count)
+                averaged_score = score(average, *data['validation'], device, 'fp32')
+                averaged_score.pop('window_nll_nats')
+                save_best(averaged_score, step+1, average, 'average')
+                intermediate_validation_seconds += averaged_score['seconds']
+                validation_history.append({'step':step+1, 'kind':'average', **averaged_score})
+                print(json.dumps({'validation':validation_history[-1]}), flush=True)
     if device.type == 'cuda':
         torch.cuda.synchronize(device)
     train_seconds = time.perf_counter()-started-intermediate_validation_seconds
     validation = score(model,*data['validation'],device,'fp32')
     validation.pop('window_nll_nats')
+    save_best(validation, args.steps)
     checkpoint = args.run_dir/'checkpoint.pt'
     torch.save({'protocol':PROTOCOL,'implementation':args.implementation,'config':config,
                 'model':model.cpu().state_dict(),'seed':args.seed,
                 'train_tokens':args.steps*args.batch_size*256},checkpoint)
     result = {'protocol':PROTOCOL,'implementation':args.implementation,'config':config,'seed':args.seed,
               'parameters':sum(p.numel() for p in model.parameters()),'precision':precision,
+              'learning_rate': args.lr, 'best_validation_bpb': best_bpb, 'best_step': best_step,
+              'average_start': args.average_start, 'average_count': average_count,
               'train_tokens':args.steps*args.batch_size*256,'preparation_seconds':preparation_seconds,
               'train_seconds':train_seconds,'validation':validation,'history':history,
               'validation_history':validation_history,
