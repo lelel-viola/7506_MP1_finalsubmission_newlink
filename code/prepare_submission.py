@@ -24,9 +24,10 @@ def main():
         if f.is_file() and f.suffix in ('.json', '.md', '.log', '.npy'):
             files[f] = f.relative_to(root).as_posix()
     files[args.checkpoint.resolve()] = 'submission/best.pt'
-    baseline = root/'runs/baseline-renewed/best.pt'
-    if baseline.exists():
-        files[baseline] = 'runs/baseline-renewed/best.pt'
+    for name in ('best.pt', 'checkpoint.pt', 'metrics.json'):
+        baseline_file = root/'runs/baseline-timing'/name
+        if baseline_file.exists():
+            files[baseline_file] = f'runs/baseline-timing/{name}'
     # This older, self-trained checkpoint is a continuation-training input,
     # never an evaluation dependency of submission/best.pt.
     files[root.parent/'GUIDE.md'] = 'GUIDE.md'

@@ -5,5 +5,11 @@ runs/*
 !runs/rope-calibrated/
 !runs/rope-calibrated/*.json
 !runs/rope-calibrated/*.npy
+!runs/rope-calibrated/cpu_pair_*
 *.pt
 !runs/rope-calibrated/best.pt
+!runs/baseline-timing/
+!runs/baseline-timing/*.json
+!runs/baseline-timing/*.pt
+!runs/paired-control/
+!runs/paired-control/*.json

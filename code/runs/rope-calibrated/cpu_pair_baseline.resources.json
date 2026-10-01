@@ -1,0 +1,5 @@
+{
+  "peak_process_rss_bytes": 1936920576,
+  "peak_process_rss_gib": 1.8038978576660156,
+  "scope": "whole process including imports, checkpoint and data loading, and scoring"
+}

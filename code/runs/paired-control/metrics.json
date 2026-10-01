@@ -1,0 +1,116 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student_rope",
+  "config": {
+    "vocab": 2048,
+    "context": 256,
+    "width": 288,
+    "heads": 6,
+    "depth": 6,
+    "ffn_hidden": 768,
+    "residual_dropout": 0.2,
+    "embedding_dropout": 0.1
+  },
+  "seed": 17,
+  "parameters": 6565536,
+  "precision": "bf16",
+  "learning_rate": 0.0008,
+  "best_validation_bpb": 1.7414554194377463,
+  "best_step": 1200,
+  "average_start": 0,
+  "average_count": 0,
+  "train_tokens": 9830400,
+  "preparation_seconds": 11.929843599908054,
+  "train_seconds": 67.08187479968183,
+  "validation": {
+    "bpb": 1.7414554194377463,
+    "token_ppl": 39.631406921334516,
+    "nll_nats": 1385741.9309285176,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 2.248832100071013
+  },
+  "history": [
+    {
+      "step": 100,
+      "loss": 5.327800273895264,
+      "seconds": 6.542359999846667
+    },
+    {
+      "step": 200,
+      "loss": 4.605020999908447,
+      "seconds": 11.981244899798185
+    },
+    {
+      "step": 300,
+      "loss": 4.328313827514648,
+      "seconds": 17.763305599801242
+    },
+    {
+      "step": 400,
+      "loss": 4.000123500823975,
+      "seconds": 23.158550099935383
+    },
+    {
+      "step": 500,
+      "loss": 3.958394765853882,
+      "seconds": 28.53028259985149
+    },
+    {
+      "step": 600,
+      "loss": 3.7939748764038086,
+      "seconds": 34.300653899786994
+    },
+    {
+      "step": 700,
+      "loss": 3.6620938777923584,
+      "seconds": 39.82542729983106
+    },
+    {
+      "step": 800,
+      "loss": 3.71513032913208,
+      "seconds": 45.27460809983313
+    },
+    {
+      "step": 900,
+      "loss": 3.603081226348877,
+      "seconds": 50.86661629984155
+    },
+    {
+      "step": 1000,
+      "loss": 3.6030211448669434,
+      "seconds": 56.14972719992511
+    },
+    {
+      "step": 1100,
+      "loss": 3.5059125423431396,
+      "seconds": 61.61193069978617
+    },
+    {
+      "step": 1200,
+      "loss": 3.554563045501709,
+      "seconds": 67.03378539998084
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 1200,
+      "bpb": 1.7414554194377463,
+      "token_ppl": 39.631406921334516,
+      "nll_nats": 1385741.9309285176,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 2.2737577001098543
+    }
+  ],
+  "intermediate_validation_seconds": 2.2737577001098543,
+  "process_seconds": 83.79751479998231,
+  "torch_version": "2.7.1+cu126",
+  "threads": 4,
+  "checkpoint_sha256": "e02d4c1133e4acf829a7d6aa6f288abc937d70aa0be8240349e4b45f6bc153c1",
+  "implementation_sha256": "9bf2ec9131340c44b4ed3a536c41b74128986e0b7ac693118a61efa7838fbf04",
+  "device": "cuda:0",
+  "device_name": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+  "peak_allocated_gb": 1.164063232,
+  "peak_reserved_gb": 1.30023424
+}

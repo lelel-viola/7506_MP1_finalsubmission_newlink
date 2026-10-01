@@ -61,10 +61,11 @@ The baseline has four GPT blocks, width 128, four attention heads and **1,088,25
 **Your model** — use `student_rope.py` and its supporting files, then:
 
 ```bash
-python train.py --implementation student_rope --config configs/student-rope.json --seed 17 --steps 24000 --eval-every 1200 --average-start 12000 --run-dir runs/my-model
-python evaluate.py --checkpoint runs/my-model/checkpoint.pt --split validation
+python train.py --implementation student_rope --config configs/student-rope.json --device cuda --precision bf16 --seed 17 --steps 24000 --eval-every 1200 --average-start 12000 --lr 0.0008 --run-dir runs/my-model
+python select_cache.py --checkpoint runs/my-model/best.pt --run-dir runs/my-model-calibrated
+python evaluate.py --checkpoint runs/my-model-calibrated/best.pt --split validation
 # Freeze the final method before testing:
-python evaluate.py --checkpoint runs/my-model/checkpoint.pt --split test
+python evaluate.py --checkpoint runs/my-model-calibrated/best.pt --split test
 ```
 
 Training writes `checkpoint.pt` and `metrics.json`. Evaluation writes `test_cpu_fp32.json` (or the corresponding device/split name) and per-window losses. Submit the **bpb** value from the complete-test JSON, not token perplexity or validation BPB. Default evaluation is FP32. Add `--device cuda` for GPU runs; training can use BF16, but ranked evaluation must use FP32 and remain reproducible on CPU. The supplied CUDA runner caps PyTorch allocation at 20 GB; driver overhead is additional.
@@ -79,7 +80,7 @@ Training writes `checkpoint.pt` and `metrics.json`. Evaluation writes `test_cpu_
 | `data/` | Supplied splits, tokenizer and dataset hashes; keep unchanged. |
 | `tests/test_contract.py` | Checks your model's causality, normalization, independence and gradients. |
 | `RUN_LOG_TEMPLATE.csv` | Optional experiment-log template. |
-| `PACKAGE_MANIFEST.json` | Release hashes; paths are relative to the package root containing code/ and guide/. |
+| `deliverables/MP1_final_submission.zip` | Final source/checkpoint bundle with SHA256 manifest. |
 
 - `build_model(config)` returns a PyTorch model with `context=256`.
 - The supplied trainer calls `forward(ids)` for unnormalized logits; the scorer calls `predict_log_probs(ids)` for finite, normalized natural-log probabilities. Both outputs have shape `[batch, time, 2048]`.
@@ -130,9 +131,7 @@ The supplied `wikitext-2-raw-v1` splits preserve revision `b08601e04326c79dfdd32
 ## 7. AI assistance disclosure
 
 AI assistance was used to inspect the starter code, explain the evaluation
-protocol, implement and review the SwiGLU student model, and draft the report.
-The model is trained from scratch on the supplied data; no pretrained weights,
-external training text, retrieval database or test answers were used.
+protocol, implement and review the rotary RMSNorm model and causal within-window+cache, run validation experiments, check resource use and causality, and draft+the report. Training used only the supplied data, without pretrained weights,+external training text, a stored retrieval database or test answers.
 
 ## 8. Final optimization experiment
 
